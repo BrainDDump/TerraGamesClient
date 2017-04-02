@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED24C23A1E904C36004DDDA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24C2391E904C36004DDDA3 /* AppDelegate.swift */; };
+		ED24C23C1E904C36004DDDA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24C23B1E904C36004DDDA3 /* ViewController.swift */; };
+		ED24C2411E904C36004DDDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED24C2401E904C36004DDDA3 /* Assets.xcassets */; };
+		ED24C2441E904C36004DDDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED24C2421E904C36004DDDA3 /* LaunchScreen.storyboard */; };
+		ED24C24F1E904C36004DDDA3 /* TerraGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24C24E1E904C36004DDDA3 /* TerraGamesTests.swift */; };
+		ED24C25A1E904EF5004DDDA3 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24C2591E904EF5004DDDA3 /* Scene.swift */; };
+		ED24C2601E9058F5004DDDA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24C25F1E9058F5004DDDA3 /* SceneDelegate.swift */; };
+		ED24C2631E907537004DDDA3 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24C2621E907537004DDDA3 /* CGPoint.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED24C24B1E904C36004DDDA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED24C22E1E904C36004DDDA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED24C2351E904C36004DDDA3;
+			remoteInfo = TerraGames;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED24C2361E904C36004DDDA3 /* TerraGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerraGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED24C2391E904C36004DDDA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED24C23B1E904C36004DDDA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED24C2401E904C36004DDDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED24C2431E904C36004DDDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED24C2451E904C36004DDDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED24C24A1E904C36004DDDA3 /* TerraGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerraGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED24C24E1E904C36004DDDA3 /* TerraGamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraGamesTests.swift; sourceTree = "<group>"; };
+		ED24C2501E904C36004DDDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED24C2591E904EF5004DDDA3 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		ED24C25F1E9058F5004DDDA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED24C2621E907537004DDDA3 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED24C2331E904C36004DDDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED24C2471E904C36004DDDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED24C22D1E904C36004DDDA3 = {
+			isa = PBXGroup;
+			children = (
+				ED24C2381E904C36004DDDA3 /* TerraGames */,
+				ED24C24D1E904C36004DDDA3 /* TerraGamesTests */,
+				ED24C2371E904C36004DDDA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED24C2371E904C36004DDDA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED24C2361E904C36004DDDA3 /* TerraGames.app */,
+				ED24C24A1E904C36004DDDA3 /* TerraGamesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED24C2381E904C36004DDDA3 /* TerraGames */ = {
+			isa = PBXGroup;
+			children = (
+				ED24C2611E907526004DDDA3 /* Extensions */,
+				ED24C25E1E9057EC004DDDA3 /* ViewControllers */,
+				ED24C25D1E9057CF004DDDA3 /* Engine */,
+				ED24C25B1E90577B004DDDA3 /* Core */,
+				ED24C25C1E9057B1004DDDA3 /* SupportFiles */,
+			);
+			path = TerraGames;
+			sourceTree = "<group>";
+		};
+		ED24C24D1E904C36004DDDA3 /* TerraGamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED24C24E1E904C36004DDDA3 /* TerraGamesTests.swift */,
+				ED24C2501E904C36004DDDA3 /* Info.plist */,
+			);
+			path = TerraGamesTests;
+			sourceTree = "<group>";
+		};
+		ED24C25B1E90577B004DDDA3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ED24C2391E904C36004DDDA3 /* AppDelegate.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		ED24C25C1E9057B1004DDDA3 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				ED24C2401E904C36004DDDA3 /* Assets.xcassets */,
+				ED24C2421E904C36004DDDA3 /* LaunchScreen.storyboard */,
+				ED24C2451E904C36004DDDA3 /* Info.plist */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		ED24C25D1E9057CF004DDDA3 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				ED24C2591E904EF5004DDDA3 /* Scene.swift */,
+				ED24C25F1E9058F5004DDDA3 /* SceneDelegate.swift */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		ED24C25E1E9057EC004DDDA3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED24C23B1E904C36004DDDA3 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ED24C2611E907526004DDDA3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED24C2621E907537004DDDA3 /* CGPoint.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED24C2351E904C36004DDDA3 /* TerraGames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED24C2531E904C36004DDDA3 /* Build configuration list for PBXNativeTarget "TerraGames" */;
+			buildPhases = (
+				ED24C2321E904C36004DDDA3 /* Sources */,
+				ED24C2331E904C36004DDDA3 /* Frameworks */,
+				ED24C2341E904C36004DDDA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TerraGames;
+			productName = TerraGames;
+			productReference = ED24C2361E904C36004DDDA3 /* TerraGames.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED24C2491E904C36004DDDA3 /* TerraGamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED24C2561E904C36004DDDA3 /* Build configuration list for PBXNativeTarget "TerraGamesTests" */;
+			buildPhases = (
+				ED24C2461E904C36004DDDA3 /* Sources */,
+				ED24C2471E904C36004DDDA3 /* Frameworks */,
+				ED24C2481E904C36004DDDA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED24C24C1E904C36004DDDA3 /* PBXTargetDependency */,
+			);
+			name = TerraGamesTests;
+			productName = TerraGamesTests;
+			productReference = ED24C24A1E904C36004DDDA3 /* TerraGamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED24C22E1E904C36004DDDA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BrainDump;
+				TargetAttributes = {
+					ED24C2351E904C36004DDDA3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A55978949T;
+						ProvisioningStyle = Automatic;
+					};
+					ED24C2491E904C36004DDDA3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A55978949T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED24C2351E904C36004DDDA3;
+					};
+				};
+			};
+			buildConfigurationList = ED24C2311E904C36004DDDA3 /* Build configuration list for PBXProject "TerraGames" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED24C22D1E904C36004DDDA3;
+			productRefGroup = ED24C2371E904C36004DDDA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED24C2351E904C36004DDDA3 /* TerraGames */,
+				ED24C2491E904C36004DDDA3 /* TerraGamesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED24C2341E904C36004DDDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED24C2441E904C36004DDDA3 /* LaunchScreen.storyboard in Resources */,
+				ED24C2411E904C36004DDDA3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED24C2481E904C36004DDDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED24C2321E904C36004DDDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED24C23C1E904C36004DDDA3 /* ViewController.swift in Sources */,
+				ED24C23A1E904C36004DDDA3 /* AppDelegate.swift in Sources */,
+				ED24C25A1E904EF5004DDDA3 /* Scene.swift in Sources */,
+				ED24C2631E907537004DDDA3 /* CGPoint.swift in Sources */,
+				ED24C2601E9058F5004DDDA3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED24C2461E904C36004DDDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED24C24F1E904C36004DDDA3 /* TerraGamesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED24C24C1E904C36004DDDA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED24C2351E904C36004DDDA3 /* TerraGames */;
+			targetProxy = ED24C24B1E904C36004DDDA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED24C2421E904C36004DDDA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED24C2431E904C36004DDDA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED24C2511E904C36004DDDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED24C2521E904C36004DDDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED24C2541E904C36004DDDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A55978949T;
+				INFOPLIST_FILE = TerraGames/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrainDump.TerraGames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED24C2551E904C36004DDDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A55978949T;
+				INFOPLIST_FILE = TerraGames/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrainDump.TerraGames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ED24C2571E904C36004DDDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A55978949T;
+				INFOPLIST_FILE = TerraGamesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrainDump.TerraGamesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerraGames.app/TerraGames";
+			};
+			name = Debug;
+		};
+		ED24C2581E904C36004DDDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A55978949T;
+				INFOPLIST_FILE = TerraGamesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrainDump.TerraGamesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerraGames.app/TerraGames";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED24C2311E904C36004DDDA3 /* Build configuration list for PBXProject "TerraGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED24C2511E904C36004DDDA3 /* Debug */,
+				ED24C2521E904C36004DDDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED24C2531E904C36004DDDA3 /* Build configuration list for PBXNativeTarget "TerraGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED24C2541E904C36004DDDA3 /* Debug */,
+				ED24C2551E904C36004DDDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED24C2561E904C36004DDDA3 /* Build configuration list for PBXNativeTarget "TerraGamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED24C2571E904C36004DDDA3 /* Debug */,
+				ED24C2581E904C36004DDDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED24C22E1E904C36004DDDA3 /* Project object */;
+}
