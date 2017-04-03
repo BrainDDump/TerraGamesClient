@@ -23,6 +23,18 @@
 import CoreGraphics
 import SpriteKit
 
+extension CGFloat {
+    init?(_ str: String?) {
+        guard let str = str else { return nil }
+        
+        if let numericValue = Double(str) {
+            self.init(numericValue)
+        } else {
+            return nil
+        }
+    }
+}
+
 public extension CGPoint {
     /**
      * Creates a new CGPoint given a CGVector.

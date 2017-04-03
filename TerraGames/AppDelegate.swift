@@ -16,9 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        window = UIWindow.init()
-        window?.rootViewController = ViewController()
-        window?.makeKeyAndVisible()
+//        window = UIWindow.init()
+//        window?.rootViewController = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "setup")
+//        window?.makeKeyAndVisible()
         
         return true
     }

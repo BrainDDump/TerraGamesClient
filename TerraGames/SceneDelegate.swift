@@ -13,7 +13,7 @@ class SceneDelegate: NSObject, SKSceneDelegate {
     
     
     func update(_ currentTime: TimeInterval, for scene: SKScene) {
-        
+        print("update")
     }
     
     func didEvaluateActions(for scene: SKScene) {

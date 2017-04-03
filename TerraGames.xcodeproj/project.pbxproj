@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		ED24C23A1E904C36004DDDA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24C2391E904C36004DDDA3 /* AppDelegate.swift */; };
-		ED24C23C1E904C36004DDDA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24C23B1E904C36004DDDA3 /* ViewController.swift */; };
+		ED24C23C1E904C36004DDDA3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24C23B1E904C36004DDDA3 /* GameViewController.swift */; };
 		ED24C2411E904C36004DDDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED24C2401E904C36004DDDA3 /* Assets.xcassets */; };
 		ED24C2441E904C36004DDDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED24C2421E904C36004DDDA3 /* LaunchScreen.storyboard */; };
 		ED24C24F1E904C36004DDDA3 /* TerraGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24C24E1E904C36004DDDA3 /* TerraGamesTests.swift */; };
 		ED24C25A1E904EF5004DDDA3 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24C2591E904EF5004DDDA3 /* Scene.swift */; };
 		ED24C2601E9058F5004DDDA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24C25F1E9058F5004DDDA3 /* SceneDelegate.swift */; };
 		ED24C2631E907537004DDDA3 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24C2621E907537004DDDA3 /* CGPoint.swift */; };
+		ED24C29D1E91539A004DDDA3 /* GameSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24C29C1E91539A004DDDA3 /* GameSetupViewController.swift */; };
+		ED24C2A01E915919004DDDA3 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24C29F1E915919004DDDA3 /* SessionManager.swift */; };
+		ED26DFDF1E915BEB00BC1168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED26DFDE1E915BEB00BC1168 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +33,7 @@
 /* Begin PBXFileReference section */
 		ED24C2361E904C36004DDDA3 /* TerraGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerraGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED24C2391E904C36004DDDA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED24C23B1E904C36004DDDA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED24C23B1E904C36004DDDA3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		ED24C2401E904C36004DDDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED24C2431E904C36004DDDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED24C2451E904C36004DDDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +43,9 @@
 		ED24C2591E904EF5004DDDA3 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		ED24C25F1E9058F5004DDDA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ED24C2621E907537004DDDA3 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		ED24C29C1E91539A004DDDA3 /* GameSetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSetupViewController.swift; sourceTree = "<group>"; };
+		ED24C29F1E915919004DDDA3 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		ED26DFDE1E915BEB00BC1168 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		ED24C2381E904C36004DDDA3 /* TerraGames */ = {
 			isa = PBXGroup;
 			children = (
+				ED24C29E1E9158FC004DDDA3 /* Networking */,
 				ED24C2611E907526004DDDA3 /* Extensions */,
 				ED24C25E1E9057EC004DDDA3 /* ViewControllers */,
 				ED24C25D1E9057CF004DDDA3 /* Engine */,
@@ -110,6 +117,7 @@
 		ED24C25C1E9057B1004DDDA3 /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
+				ED26DFDE1E915BEB00BC1168 /* Main.storyboard */,
 				ED24C2401E904C36004DDDA3 /* Assets.xcassets */,
 				ED24C2421E904C36004DDDA3 /* LaunchScreen.storyboard */,
 				ED24C2451E904C36004DDDA3 /* Info.plist */,
@@ -129,7 +137,8 @@
 		ED24C25E1E9057EC004DDDA3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				ED24C23B1E904C36004DDDA3 /* ViewController.swift */,
+				ED24C29C1E91539A004DDDA3 /* GameSetupViewController.swift */,
+				ED24C23B1E904C36004DDDA3 /* GameViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -140,6 +149,14 @@
 				ED24C2621E907537004DDDA3 /* CGPoint.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		ED24C29E1E9158FC004DDDA3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				ED24C29F1E915919004DDDA3 /* SessionManager.swift */,
+			);
+			name = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED26DFDF1E915BEB00BC1168 /* Main.storyboard in Resources */,
 				ED24C2441E904C36004DDDA3 /* LaunchScreen.storyboard in Resources */,
 				ED24C2411E904C36004DDDA3 /* Assets.xcassets in Resources */,
 			);
@@ -246,11 +264,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED24C23C1E904C36004DDDA3 /* ViewController.swift in Sources */,
+				ED24C23C1E904C36004DDDA3 /* GameViewController.swift in Sources */,
 				ED24C23A1E904C36004DDDA3 /* AppDelegate.swift in Sources */,
 				ED24C25A1E904EF5004DDDA3 /* Scene.swift in Sources */,
 				ED24C2631E907537004DDDA3 /* CGPoint.swift in Sources */,
+				ED24C29D1E91539A004DDDA3 /* GameSetupViewController.swift in Sources */,
 				ED24C2601E9058F5004DDDA3 /* SceneDelegate.swift in Sources */,
+				ED24C2A01E915919004DDDA3 /* SessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +470,7 @@
 				ED24C2551E904C36004DDDA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED24C2561E904C36004DDDA3 /* Build configuration list for PBXNativeTarget "TerraGamesTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +479,7 @@
 				ED24C2581E904C36004DDDA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
